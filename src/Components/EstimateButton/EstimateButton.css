@@ -1,0 +1,122 @@
+#Estimate_button {
+     
+    background-color: rgb(215, 205, 181) ;
+    padding:1.5rem ;
+    font-size:1.2rem;
+    width:max-content;
+    display: inline-block;
+    color: var(--color-black);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-black);
+    transition: var(--transition);
+    font-family: 'Cormorant Garamond', serif;
+    
+    
+
+   }
+
+   #Estimate_button:hover{
+     
+    background-color: rgb(196, 192, 192,0.2)  ;
+    }
+
+
+    .center-result{
+        left: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+      
+         right: 50%;
+       
+       
+
+
+     
+
+     } 
+
+    .close {
+
+        float:right;
+        /* padding: 8px; */
+        margin-top: 8px;
+        margin-right: 8px;
+        font-size: 32px;
+        color: rgb(41, 40, 38);
+    }
+
+    #popUp1{
+        /* margin-top: 0; */
+        position: fixed;
+        height: 100vh;
+        /* max-width:800px; */
+        /* margin-right:100px; */
+        /* margin-bottom: 100px; */
+    
+    
+      
+    }
+    
+    
+    
+    
+    
+    
+    .popUp11 {
+     
+        height:60%;
+        width:400px;
+        background-color: rgba(224, 219, 219,0.75);
+        z-index: -1;
+      
+        margin-right: 100px;
+        margin-top:40px;
+    
+    
+    
+    }
+    
+    .submitbutton {
+    
+    margin-top:32px ;
+    margin-left: 32px;
+    
+    }
+    
+    /* .close {
+    
+        float:right;
+        /* padding: 8px; */
+        /* margin-top: 8px;
+        margin-right: 8px;
+    } */ 
+    
+    #Submit {
+      
+        padding: 8px;
+        background-color: rgb(125, 125, 125);
+        border-radius: 5px;
+        margin-top: 200px;
+       
+      
+    
+    }
+    
+    #Submit:hover {
+      
+       
+        background-color: rgb(105, 103, 115);
+        cursor: pointer;
+       
+    
+    }
+
+    .Estimate_button_area{
+
+      margin-right: 0;
+      padding: 0;
+      /* position: fixed; */
+
+    }

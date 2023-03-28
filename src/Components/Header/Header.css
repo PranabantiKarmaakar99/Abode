@@ -1,0 +1,192 @@
+
+header{
+  position: fixed; 
+  overflow: hidden;
+  top: 0;
+  z-index:2;
+  background-color:rgb(255, 255, 255,0.5);
+  height:80px;
+  width:100%;
+  box-shadow:2px 10px 9px 2px rgba(0,0,0,0.15);
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  }
+
+  .Navbar nav ul {
+    list-style: none;
+    margin : 0;
+    padding :0
+  }
+
+  
+
+
+
+.company_name{
+    position : fixed;
+    left:10px;
+   }
+  
+
+   .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+   }
+
+
+   .Navbar nav ul li {
+    display:inline;
+    margin:20px;
+    padding:1.5rem ;
+    font-size:1.2rem;
+    color:var(--color--black);
+    align-items: center;
+    /* background: rgba(255, 255, 255, 0.6) ; */
+ 
+    transition: var(--transition);
+    }
+
+
+
+    #anchor{
+      color:var(--color--black);
+    }
+
+    .Navbar nav ul li:hover{
+    /* background:red; */
+    color: var(--color-black);
+    border-bottom: solid 3px rgb(215, 205, 181);
+    font-size:1.2rem;
+    background: rgb(196, 192, 192,0.2) ;
+    align-items:none;
+    
+   }
+
+
+   .Navbar .MobileNavigation {
+        
+    display: none;
+  
+   }
+
+
+
+   
+
+
+
+
+
+   /*======== MEDIA QUERIES =======*/
+  
+   @media screen and (max-width:1024px){
+
+    header {
+    overflow: visible;
+
+    }
+  
+    .Navbar .Navigation {
+        
+      display: none;
+    
+     }
+
+     nav {
+      width:100%;
+      /* background-color: red; */
+     
+
+
+     }
+
+     .Navbar .MobileNavigation {
+        
+      display: flex;
+      /* background-color: blue; */
+       align-items: center;
+      height :100px;
+      width:100%;
+    
+     } 
+      
+     .Navbar .MobileNavigation .Hamburger {
+       
+      position:absolute;
+      right: 15px;
+      font-size :30px;
+      color:gray;
+
+     }
+
+     .Navbar .MobileNavigation .Close {
+       
+      position:absolute;
+      right: 15px;
+      font-size :30px;
+      color:gray;
+
+     }
+/*      
+     .Drawercomp {
+   
+      display:flex;
+      flex-direction: column;
+      z-index: 1;
+      margin-top:80px;
+      width: 100%;
+    
+      
+  
+  
+  } */
+
+
+
+     /* .MobileNavigation ul {
+
+      display: flex;
+      flex-direction: row;
+      position :absolute; 
+       top: 100px; 
+      height:100px;
+      right :0;
+      width:100%;
+      background: rgb(20, 110, 189);
+      border-top: 2px solid rgb(215, 205, 181);
+      z-index:5;
+      overflow: hidden;
+} */
+
+/* .Navbar .MobileNavigation nav ul li {
+
+padding-left: 15px;
+  
+} */
+
+
+    }
+
+
+
+   
+  
+  @media  screen and (max-width:600px) {
+
+    header {
+      overflow: visible;
+  
+      }
+  
+     .container {
+      width: var (--container-width-sm);
+    }
+  
+    section {
+      margin-top:2.5rem;
+    }
+  }

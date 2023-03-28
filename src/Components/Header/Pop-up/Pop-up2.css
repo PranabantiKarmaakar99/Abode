@@ -1,0 +1,62 @@
+
+#popUp2{
+    /* margin-top: 0; */
+    height: 100vh;
+    /* margin-bottom: 100px; */
+
+
+  
+}
+
+
+
+
+
+
+.popUp21 {
+ 
+    height:50%;
+    width:37%;
+    background-color: rgb(33, 206, 36);
+    z-index: -1;
+    margin:auto;
+    margin-top:40px;
+
+
+
+}
+
+.submitbutton {
+
+margin-top:32px ;
+margin-left: 32px;
+
+}
+
+.close {
+
+    float:right;
+    /* padding: 8px; */
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+#Submit {
+  
+    padding: 8px;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-top: 200px;
+   
+  
+
+}
+
+#Submit:hover {
+  
+   
+    background-color: rgb(34, 14, 186);
+    cursor: pointer;
+   
+
+}

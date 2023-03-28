@@ -1,0 +1,66 @@
+
+#popUp1{
+    /* margin-top: 0; */
+    position: fixed;
+    height: 100vh;
+    /* max-width:800px; */
+    /* margin-right:100px; */
+    /* margin-bottom: 100px; */
+
+
+  
+}
+
+
+
+
+
+
+.popUp11 {
+ 
+    height:60%;
+    width:400px;
+    background-color: brown;
+    z-index: -1;
+  
+    margin-right: 100px;
+    margin-top:40px;
+
+
+
+}
+
+.submitbutton {
+
+margin-top:32px ;
+margin-left: 32px;
+
+}
+
+.close {
+
+    float:right;
+    /* padding: 8px; */
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+#Submit {
+  
+    padding: 8px;
+    background-color: rgb(119, 119, 113);
+    border-radius: 5px;
+    margin-top: 200px;
+   
+  
+
+}
+
+#Submit:hover {
+  
+   
+    background-color: rgb(34, 14, 186);
+    cursor: pointer;
+   
+
+}

@@ -1,0 +1,25 @@
+.container.container_carousel {
+
+    margin:10px;
+    width:95%;
+    background-color: brown;
+    /* gap:20px; */
+}
+
+.slider {
+
+    margin:20px;
+}
+
+
+
+ .carousel_box {
+
+    height:200px;
+    width:200px;
+    background-color: blue;
+    margin:100px;
+    gap:40px;
+
+}
+

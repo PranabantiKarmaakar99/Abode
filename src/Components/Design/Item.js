@@ -1,0 +1,14 @@
+import styled from "styled-components";
+
+export default styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  width: 100%;
+  ${'' /* background:var(--color-bg-variant); */}
+  color: #fff;
+  margin: 0 15px;
+  font-size: 4em;
+  overflow:visible;
+`;
