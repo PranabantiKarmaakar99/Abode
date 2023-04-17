@@ -17,9 +17,17 @@ const Header = () => {
 
   return (
    <header>
-   
+
   
-   <h1 className='company_name'>ABODE</h1>
+   
+  <div className="company_name1">
+
+   <div className="The">The</div> <div className="Abode" > ABODE </div>
+
+   </div>
+   {/* <div className="tagline2">boutique home and beyond</div> */}
+
+  
    
 <nav>
   <Navbar />

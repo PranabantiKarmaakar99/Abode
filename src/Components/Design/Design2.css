@@ -1,8 +1,9 @@
 
 #design{
     margin-top: 0;
-    height: 100vh;
+    height: fit-content;
     margin-bottom: 100px;
+    font-size: 12px;
 
 
   
@@ -10,40 +11,287 @@
 
 .title_design_block{
 
-    display: flex;
-    flex-direction: column;
-    /* gap:.5rem; */
-    justify-content: center;
-    align-items: center;
-    padding-top: 6rem;
+    text-align: center;
+    padding-top: 0;
     padding-bottom: 0;
-    margin-top: 32px;
-    margin-bottom:32px;
+    padding-top: 50px;
+  
+    text-align: center;
+    
+    
 }
+
+
 
 .App {
     font-family: 'Cormorant Garamond', serif;
     display: flex;
     /* align-items: center; */
     justify-content: center;
-    height: 100%;
+    height: 95%;
     width:95%;
     margin:0 auto;
    
     
   }
+  .section_design_title{
+    margin-top:5px;
+    font-size: 1.25rem;
+    color:grey;
+   
+  }
 
-/* 
-.container.container_design{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap:4rem;
-padding-left: 2rem;
-padding-right: 2rem;
-height:100%;
-justify-content: center;
-width:100%;
-} */
+  .section_design_content{
+    font-size: .85rem;
+   
+  }
+
+  /* .section_design_content{
+    font-size: 1rem;
+   
+  } */
+
+  .design-items{
+    padding:1rem; 
+   background:var(--color-bg-variant);
+   width:100%;
+   
+   height:90%;
+   box-shadow:  10px 10px 9px 0px rgba(0,0,0,0.15);
+   /* box-shadow:  10px -11px 16px 0px rgba(201,195,201,1); */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   border-radius: 1%;
+
+ 
+
+   
+} 
+
+.design_image {
+    
+     height:500px;
+    width:100%;
+    /* margin-top: -12px; */
+   
+   
+
+} 
+
+.design_title{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+   
+    align-items: flex-start;
+    text-align: left;
+    width:100%;
+    /* padding-left: 1.2rem; */
+    height:10%;
+    margin-bottom: 16px;
+   
+
+}
+
+.design_title > h2{
+   font-size: 1.1rem;
+   font-weight:bold;
+    color:var( --color-light);
+    margin-top:8px;
+    
+
+}
+
+.design_title h5{
+    font-size: .5rem;
+    color:var( --color-light)
+    
+   
+     
+ 
+ }
+
+.design_content {
+
+  
+    
+    display: flex;
+    flex-direction: column;
+ 
+   
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+   
+}
+
+.design_content_text{
+    /* position: absolute; */
+
+    display: flex;
+    align-items: center;
+
+    font-size: 0.75rem;
+    background: none;
+    float:right;
+    right: 10px;
+    /* padding-left: 5rem; */
+    padding-right: 0;
+    transition: var(--transition);
+    color:var(--color-light)
+  
+   
+}
+
+.design_content_text:hover{
+
+  
+   
+   color:var(--color-black);
+   font-weight: 600;
+  
+   
+}
+
+
+
+.design_content_icon{
+    font-size: .75rem;
+    padding: 0;
+     width:min-content}
+
+
+     
+ 
+ 
+   
+
+     #design > div.App > div > div.sc-iBYQkv.jtKTCe.rec.rec-pagination{
+
+        width:fit-content;
+        /* width:50px; */
+        opacity: 0.3;
+        align-items: center;
+
+     }
+
+     #design > div.App > div > div.sc-iBYQkv.jtKTCe.rec.rec-pagination > button{
+        width:5px;
+        height:5px;
+     }
+
+     #design > div.App > div > div.sc-iBYQkv.jtKTCe.rec.rec-pagination
+
+
+.rec-dot_active {
+    background-color: var( --color-light) !important;
+    box-shadow: 0 0 1px 3px var( --color-light) !important;
+}
+
+.rec-dot:focus,
+.rec-dot:hover {
+    box-shadow: 0 0 1px 3px var(--color-black) !important;
+}
+.rec-dot_active:focus,
+.rec-dot_active:hover {
+    background-color: var(--color-black) !important;
+    box-shadow: 0 0 1px 3px var(--color-black) !important;
+}
+
+.rec-arrow {
+    
+    background-color: var(--blue) !important;
+    transition: all 0.3s ease;
+    font-size: 1.1rem !important;
+    color: var( --color-light) !important;
+    width: 1.7rem !important;
+    height: 1.7rem !important;
+    min-width: 1.7rem !important;
+    line-height: 1.7rem !important;
+   
+}
+
+.rec-arrow:hover:not(:disabled) {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+  /*======== MEDIA QUERIES =======*/
+
+
+  @media  screen and (min-width:600px) {
+
+    #design{
+       
+        font-size: 16px;
+    
+    
+      
+    }
+
+    .App{
+        height:fit-content;
+        margin-top: 100px;
+
+     }
+
+     .title_design_block{
+
+       padding-top: 100px;
+       
+    }
+
+    .design_image {
+    
+        height:400px;
+       width:100%;
+       /* margin-top: -12px; */
+      
+      
+   
+   }
+
+
+  }
+  
+  @media screen and (min-width:992px){
+
+    #design{
+       
+        font-size: 18px;
+        height:fit-content;
+    
+    
+      
+    }
+  
+ .App{
+    height:fit-content;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+ .title_design_block{
+
+    display: flex;
+    flex-direction: column;
+    /* gap:.5rem; */
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
 
 
 
@@ -72,10 +320,10 @@ width:100%;
 
     
 
-    margin:16px auto 16px;
+    /* margin:16px auto 16px; */
 
-    height:90%;
-    width:90%;
+    height:80%;
+    width:95%;
    
 
 }
@@ -163,53 +411,6 @@ width:100%;
 
 }
 
-
-
-.rec-dot_active {
-    background-color: var( --color-light) !important;
-    box-shadow: 0 0 1px 3px var( --color-light) !important;
-}
-.rec-dot:focus,
-.rec-dot:hover {
-    box-shadow: 0 0 1px 3px var(--color-black) !important;
-}
-.rec-dot_active:focus,
-.rec-dot_active:hover {
-    background-color: var(--color-black) !important;
-    box-shadow: 0 0 1px 3px var(--color-black) !important;
-}
-
-.rec-arrow {
-    
-    background-color: var(--blue) !important;
-    transition: all 0.3s ease;
-    font-size: 1.1rem !important;
-    color: var( --color-light) !important;
-    width: 1.7rem !important;
-    height: 1.7rem !important;
-    min-width: 1.7rem !important;
-    line-height: 1.7rem !important;
-   
-}
-
-.rec-arrow:hover:not(:disabled) {
-    transform: scale(1.2);
-}
-
-
-
-
-
-
-  /*======== MEDIA QUERIES =======*/
-  
-  @media screen and (max-width:1024px){
-  
- .App{
-    height:100vh;
-    margin-top: 100px;
-    margin-bottom: 100px;
- }
 }
 
    
@@ -219,16 +420,4 @@ width:100%;
 
 
   
-  @media  screen and (max-width:600px) {
-
- 
-
-    .App{
-        height:100vh;
-        margin-top: 100px;
-
-     }
-
-
-  }
 

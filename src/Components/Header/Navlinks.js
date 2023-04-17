@@ -1,21 +1,13 @@
 import { React, useState } from "react";
-import {
-  AppBar,
-  Typography,
-  Toolbar,
-  Tabs,
-  Tab,
-  useMediaQuery,
-  useTheme,
-} from "@mui/material";
-import SearchIcon from "@mui/icons-material/Search";
 
-import Drawercomp from "./Drawercomp";
-import { Link } from "react-router-dom";
-import { AiOutlineSearch } from "react-icons/ai";
-import { ClassNames } from "@emotion/react";
-import PopUp1 from "./Pop-up/Pop-up1";
 import Estimatebutton from "../EstimateButton/Estimatebutton";
+
+import PopUp1 from "./Pop-up/Pop-up1";
+// import "./Header2.css"
+
+
+
+
 
 const Navlinks = () => {
   const [activeNav, setActiveNav] = useState("#");

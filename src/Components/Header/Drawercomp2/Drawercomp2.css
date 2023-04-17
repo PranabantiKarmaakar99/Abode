@@ -1,12 +1,32 @@
+.Drawercomp2-wrapper{
+   width:100%;
+
+   position:fixed;
+   /* margin-top:490px; */
+   top:7.5%;
+   /* z-index: 10; */
+   left:40%
+ 
+  /* background-color: red; */
+}
+
+
+
+
 .Drawercomp {
-   
+   /* position:absolute; */
     display:flex;
     flex-direction: column;
+    /* align-items: flex-start; */
     /* z-index: 1; */
-    margin-top:490px;
-    width: 100%;
+    
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-left: 100px; */
     border-top: 2px solid rgb(215, 205, 181);
     /* border-bottom: 1px solid rgb(134, 131, 128); */
+   
    
   
     
@@ -14,15 +34,25 @@
 
 }
 
+
+
+.dropleft {
+   /* left:100%; */
+} 
+
 .Drawercomp a{
+
+   /* position: absolute; */
+   z-index: 25;
    
    background-color:rgb(255, 255, 255,0.8);
-   width:100%;
-   text-align: center;
+   width:65%;
+   text-align: left;
    padding:20px;
-   margin:1px;
-   color: --color-bg-variant;
-   /* border : solid 1px rgb(129, 119, 119); */
+   /* margin:1px; */
+   color: var(--color-bg-light);
+   border-bottom : solid .5px rgb(166, 153, 153);
+   font-size: 16px;
 
 
 
@@ -51,15 +81,16 @@
     background-color: rgb(215, 205, 181) ;
     /* padding:1rem ; */
     /* font-size:1.2rem; */
-    width:95%;
+    width:65%;
     display: inline-block;
     color: var(--color-black);
     padding: 0.75rem 1rem;
-    border-radius: 0.4rem;
+    /* border-radius: 0.4rem; */
     cursor: pointer;
-    border: 1px solid var(--color-black);
+    border: 1px solid rgb(68, 66, 66);
     transition: var(--transition);
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  align-items: center;
 
    }
 

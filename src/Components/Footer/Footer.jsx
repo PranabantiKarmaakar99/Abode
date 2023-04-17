@@ -23,9 +23,13 @@ const Footer = () => {
             SUBMIT <EastIcon sx={{ fontSize: 30, marginLeft: 1 }} />
           </a>
         </div>
-        </div>
 
         <hr className="line_separator" />
+        </div>
+
+        <hr className="line_separator1" />
+
+       
 
         <div className="row footer_content">
           <article className="col-2">

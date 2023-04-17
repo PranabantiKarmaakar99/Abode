@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import PopUp1 from '../Header/Pop-up/Pop-up1';
+
 import "./EstimateButton.css";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -11,7 +11,7 @@ const Estimatebutton = () => {
   return (
     <div className='Estimate_button_area'>
 <button id="Estimate_button" onClick={() => setIsOpen(!isOpen)}>
-        Get a free Estimate
+         Free Estimate
       </button>
     {isOpen && (
         <div className='center-result'>

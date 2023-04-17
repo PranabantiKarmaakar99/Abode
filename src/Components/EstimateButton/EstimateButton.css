@@ -2,14 +2,14 @@
      
     background-color: rgb(215, 205, 181) ;
     padding:1.5rem ;
-    font-size:1.2rem;
+    font-size:1rem;
     width:max-content;
     display: inline-block;
     color: var(--color-black);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-black);
+    border: 2px solid var(--color-black);
     transition: var(--transition);
     font-family: 'Cormorant Garamond', serif;
     
